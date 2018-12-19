@@ -5,25 +5,38 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 First step:
 1. Install virtualenv 
+
 ###`python3 -m pip install --user virtualenv`
+
 2. SetUp virtualenv 
+
 ###`python3 -m virtualenv venv`
+
 3. Activate env 
+
 ###`source venv/bin/activate`
 
 Second step:
 1. Choose system interprenter or choose existed from 
+
 ###`venv/bin/`
+
 2. Install all requirements 
+
 ###`pip3 install -r requirements.txt`
-`
+
 
 Third step:
 1. You should create database:
+
 ### `user:postgres`
+
 2. if need:
+
 ### `password:12345678`
+
 ### `db_name:flask_dropbox`
+
 ###Try to handle without this step, maybe it should work!
 3. Go to python console and run 
 ###`from app.extensions import db`
