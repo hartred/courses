@@ -1,29 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-##To Handle with Flask you need
+## To Handle with Flask you need
 
 First step:
 1. Install virtualenv 
 
-###`python3 -m pip install --user virtualenv`
+### `python3 -m pip install --user virtualenv`
 
 2. SetUp virtualenv 
 
-###`python3 -m virtualenv venv`
+### `python3 -m virtualenv venv`
 
 3. Activate env 
 
-###`source venv/bin/activate`
+### `source venv/bin/activate`
 
 Second step:
 1. Choose system interprenter or choose existed from 
 
-###`venv/bin/`
+### `venv/bin/`
 
 2. Install all requirements 
 
-###`pip3 install -r requirements.txt`
+### `pip3 install -r requirements.txt`
 
 
 Third step:
@@ -39,7 +39,7 @@ Third step:
 
 ###Try to handle without this step, maybe it should work!
 3. Go to python console and run 
-###`from app.extensions import db`
+### `from app.extensions import db`
 ### `db.create_all()`
 4. To migrate all this piece of scum 
 ### `flask db migrate` 
@@ -47,14 +47,14 @@ Third step:
 
 Try to get up server:
 1. At this moment as author thinks, you can start your flask/or not
- ###`flask run`
+### `flask run`
 
 -------------------------------------------------
 
 ### React setUp
 1. First step is `cd/react/dropbox_react`
 2. Here you should 
-###`npm install` 
+### `npm install` 
 better under `sudo su`
 
 
