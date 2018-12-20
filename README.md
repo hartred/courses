@@ -38,10 +38,8 @@ Third step:
 ### `db_name:flask_dropbox`
 
 ###Try to handle without this step, maybe it should work!
-3. Go to python console and run 
-### `from app.extensions import db`
-### `db.create_all()`
-4. To migrate all this piece of scum 
+3. To migrate all this piece of scum 
+### `flask db init`
 ### `flask db migrate` 
 ### `flask db upgrade`
 
